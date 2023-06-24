@@ -67,8 +67,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: jin-test
-          environment_name: Jin-test-env
+          application_name: jin-test-2
+          environment_name: Jin-test-2-env
           version_label: jin-docker-${{steps.current-time.outputs.formattedTime}}
           region: ap-northeast-2
           deployment_package: deploy/deploy.zip
